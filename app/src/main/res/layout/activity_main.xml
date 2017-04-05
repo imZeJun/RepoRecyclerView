@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+    android:text="demoActivity"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:onClick="normalActivity"
+    style="@style/style_tv"/>
+    <TextView
+        android:text="layoutManagerActivity"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:onClick="layoutManagerActivity"
+        style="@style/style_tv"/>
+    <TextView
+        android:text="itemDecorationActivity"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:onClick="itemDecorationActivity"
+        style="@style/style_tv"/>
+    <TextView
+        android:text="itemTouchHelperActivity"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:onClick="itemTouchHelperActivity"
+        style="@style/style_tv"/>
+</LinearLayout>
